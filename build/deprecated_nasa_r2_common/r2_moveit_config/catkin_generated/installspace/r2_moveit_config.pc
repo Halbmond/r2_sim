@@ -1,0 +1,8 @@
+prefix=/home/vincent/Project/r2_sim/install
+
+Name: r2_moveit_config
+Description: Description of r2_moveit_config
+Version: 0.2.0
+Cflags: 
+Libs: -L/home/vincent/Project/r2_sim/install/lib 
+Requires: 

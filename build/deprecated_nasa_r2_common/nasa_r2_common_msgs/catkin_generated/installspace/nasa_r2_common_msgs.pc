@@ -1,0 +1,8 @@
+prefix=/home/vincent/Project/r2_sim/install
+
+Name: nasa_r2_common_msgs
+Description: Description of nasa_r2_common_msgs
+Version: 0.0.1
+Cflags: -I/home/vincent/Project/r2_sim/install/include
+Libs: -L/home/vincent/Project/r2_sim/install/lib 
+Requires: std_msgs geometry_msgs visualization_msgs trajectory_msgs message_generation message_runtime

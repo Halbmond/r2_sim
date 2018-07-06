@@ -1,0 +1,8 @@
+prefix=/home/vincent/Project/r2_sim/devel
+
+Name: gazebo_taskboard
+Description: Description of gazebo_taskboard
+Version: 0.5.3
+Cflags: -I/home/vincent/Project/r2_sim/devel/include -I/home/vincent/Project/r2_sim/src/deprecated_nasa_r2_simulator/gazebo_taskboard/include
+Libs: -L/home/vincent/Project/r2_sim/devel/lib 
+Requires: std_msgs

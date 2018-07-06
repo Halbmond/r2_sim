@@ -1,0 +1,8 @@
+prefix=/home/vincent/Project/r2_sim/install
+
+Name: r2_control
+Description: Description of r2_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/vincent/Project/r2_sim/install/lib 
+Requires: 

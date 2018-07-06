@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package>
+  <name>r2_gazebo</name>
+  <version>0.5.4</version>
+  <description>The r2_gazebo package</description>
+
+  <author>Stephen Hart</author>
+  <maintainer email="davidvlu@gmail.com">David Lu!!</maintainer>
+  <maintainer email="stephen.hart@nasa.gov">Stephen Hart</maintainer>
+  <maintainer email="allison.thackston@nasa.gov">Allison Thackston</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://wiki.ros.org/r2_gazebo</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>gazebo_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>r2_msgs</run_depend>
+  <run_depend>r2_control</run_depend>
+  <run_depend>r2_description</run_depend>
+  <run_depend>joint_trajectory_controller</run_depend>
+
+  <export>
+    <gazebo_ros gazebo_media_path="${prefix}"/>
+  </export>
+</package>

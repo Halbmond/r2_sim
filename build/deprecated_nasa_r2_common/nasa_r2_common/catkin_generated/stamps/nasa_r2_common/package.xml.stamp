@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <name>nasa_r2_common</name>
+  <version>0.1.3</version>
+  <description>The nasa_r2_common package</description>
+
+  <maintainer email="stephen.hart@nasa.gov">Stephen Hart</maintainer>
+  <maintainer email="davidvlu@gmail.com">David Lu!!</maintainer>
+
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>TODO</license>
+
+
+  <run_depend>r2_control</run_depend>
+  <run_depend>r2_description</run_depend>
+  <run_depend>r2_moveit_config</run_depend>
+  <run_depend>r2_fullbody_moveit_config</run_depend>
+  <run_depend>nasa_r2_common_msgs</run_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

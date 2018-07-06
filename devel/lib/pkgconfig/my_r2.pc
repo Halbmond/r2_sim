@@ -1,0 +1,8 @@
+prefix=/home/vincent/Project/r2_sim/devel
+
+Name: my_r2
+Description: Description of my_r2
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/vincent/Project/r2_sim/devel/lib 
+Requires: 

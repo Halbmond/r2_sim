@@ -1,0 +1,8 @@
+prefix=/home/vincent/Project/r2_sim/install
+
+Name: r2_gazebo
+Description: Description of r2_gazebo
+Version: 0.5.4
+Cflags: 
+Libs: -L/home/vincent/Project/r2_sim/install/lib 
+Requires: 

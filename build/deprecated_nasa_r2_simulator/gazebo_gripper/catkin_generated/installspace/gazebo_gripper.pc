@@ -1,0 +1,8 @@
+prefix=/home/vincent/Project/r2_sim/install
+
+Name: gazebo_gripper
+Description: Description of gazebo_gripper
+Version: 0.5.3
+Cflags: -I/home/vincent/Project/r2_sim/install/include
+Libs: -L/home/vincent/Project/r2_sim/install/lib 
+Requires: 

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+  <name>gazebo_gripper</name>
+  <version>0.5.3</version>
+  <description>The gazebo_gripper package</description>
+
+  <maintainer email="stephen.hart@nasa.gov">Stephen Hart</maintainer>
+  <maintainer email="davidvlu@gmail.com">David Lu!!</maintainer>
+
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>TODO</license>
+
+
+  <url type="website">http://wiki.ros.org/gazebo_gripper</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>r2_msgs</build_depend>
+  <build_depend>gazebo</build_depend>
+
+  <export>
+    <gazebo plugin_path="${prefix}/lib" />
+  </export>
+</package>
+
