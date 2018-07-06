@@ -6,11 +6,16 @@ The r2 robot, which is an acronym for *Robonaut 2*, is a dexterous humanoid robo
 See [NASA-R2-poster.pdf](https://github.com/Halbmond/r2_sim/blob/master/NASA-R2-poster.pdf) for details.
 
 ## Link
+
 [Blog post](http://ihalbmond.com/2018/07/06/Simulation-of-NASA-Robonaut-2/)
+
 [Github repo](https://github.com/Halbmond/r2_sim/)
+
 [Youtube | NASA R2 (Robonaut 2) Robot Simulation in gazebo Step 1 | Humanoid mime
 ](https://youtu.be/ehWuZweiUi0)
+
 [Youtube | NASA R2 (Robonaut 2) Robot Simulation in gazebo Step 2 | Humanoid arm gesture](https://youtu.be/A-b1OpHdZtU)
+
 [Youtube | NASA R2 (Robonaut 2) Robot Simulation in gazebo Step 3 | Humanoid playing chess
 ](https://youtu.be/EZ8wc5KRCTs)
 
