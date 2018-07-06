@@ -183,7 +183,7 @@ $ ./r2_hand.py pinch
 
 ### 让R2在棋盘上下棋
 
-运行spawn_chessboard.py，载入/重置棋盘
+载入/重置棋盘
 ```
 $ ./spawn_chessboard
 ```
@@ -194,8 +194,8 @@ $ ./spawn_chessboard
 sudo pip install pgnparser
 ```
 
-运行r2_chess_pgn.py，载入对局文件 morgan_defeated_lan.pgn，开始对局：
+运行spawn_chessboard.py，载入对局文件 morgan_defeated_lan.pgn，开始对局：
 ```
-$ ./spawn_chessboard.py morgan_defeated_lan.pgn
+$ ./spawn_chessboard.py
 ```
 
