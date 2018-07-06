@@ -40,12 +40,12 @@ cd ~/r2_sim
 roslaunch r2_gazebo r2_gazebo.launch
 ```
 
-![r2_gazebo](img/Simulation-of-NASA-Robonaut-2/r2_gazebo.png)
+![r2_gazebo](img/r2_gazebo.png)
 
 
 此时，在终端输入`rqt_graph ` 显示如下：
 
-![r2](img/Simulation-of-NASA-Robonaut-2/r2.svg)
+![r2](img/r2.svg)
 
 这里，节点robot_state_publisher的作用是进行前向运动学计算，也就是说，它使用R2的几何描述和它的关节状态向量持续地计算并更新机器人上的所有坐标系。这种操作到标准ros实现是不依赖于机器人的，直接启动它，它就能为R2做正确到事情。
 
@@ -59,7 +59,7 @@ roslaunch r2_moveit_config move_group.launch
 
 此时，在终端输入`rqt_graph ` 显示如下：
 
-![r2_move_group](img/Simulation-of-NASA-Robonaut-2/r2_move_group.svg)
+![r2_move_group](img/r2_move_group.svg)
 
 
 
@@ -99,7 +99,7 @@ moveit_commander.roscpp_shutdown()
 ```
 
 
-![r2_mime_screenshot](img/Simulation-of-NASA-Robonaut-2/r2_mime_screenshot.jpg)
+![r2_mime_screenshot](img/r2_mime_screenshot.jpg)
 
 视频传送门：[Youtube | NASA R2 (Robonaut 2) Robot Simulation in gazebo Step 1 | Humanoid mime
 ](https://youtu.be/ehWuZweiUi0)
@@ -149,7 +149,7 @@ if __name__ == '__main__':
 $ ./r2_chessboard_cli.py b3 0.04
 ```
 
-![r2_looking_at_chessboard](img/Simulation-of-NASA-Robonaut-2/r2_looking_at_chessboard.jpg)
+![r2_looking_at_chessboard](img/r2_looking_at_chessboard.jpg)
 
 
 ### 为R2定义下棋动作
@@ -201,14 +201,14 @@ if __name__ == '__main__':
 ```
 $ ./r2_hand.py pre-pinch
 ```
-![pre-pinch](img/Simulation-of-NASA-Robonaut-2/pre-pinch.jpg)
+![pre-pinch](img/pre-pinch.jpg)
 
 
 运行r2_hand.py，进入抓取状态：
 ```
 $ ./r2_hand.py pinch
 ```
-![pinch](img/Simulation-of-NASA-Robonaut-2/pinch.jpg)
+![pinch](img/pinch.jpg)
 
 
 视频传送门：[Youtube | NASA R2 (Robonaut 2) Robot Simulation in gazebo Step 2 | Humanoid arm gesture](https://youtu.be/A-b1OpHdZtU)
@@ -233,7 +233,7 @@ $ ./r2_chess_pgn.py morgan_defeated_lan.pgn
 ```
 
 
-![r2_chessmaster](img/Simulation-of-NASA-Robonaut-2/r2_chessmaster.jpg)
+![r2_chessmaster](img/r2_chessmaster.jpg)
 
 
 视频传送门：[Youtube | NASA R2 (Robonaut 2) Robot Simulation in gazebo Step 3 | Humanoid playing chess
