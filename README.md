@@ -50,14 +50,6 @@ roslaunch r2_moveit_config move_group.launch
 
 
 
-
-```
-cd ~/r2_sim
-mkdir my_r2
-. devel/setup.bash
-roslaunch r2_moveit_config move_group.launch
-```
-
 ## Simulation of NASA Robonaut 2
 
 The following codes are available in `my_r2` package.
@@ -133,9 +125,9 @@ if __name__ == '__main__':
   moveit_commander.roscpp_shutdown()
 ```
 
-运行 r2_chessboard_cli.py：
+运行 r2_chessboard_cli.py，将r2的手臂移动到棋盘b3位置上4厘米处：
 ```
-$ ./r2_chessboard_cli.py a2 0.04
+$ ./r2_chessboard_cli.py b3 0.04
 ```
 
 
@@ -202,7 +194,8 @@ $ ./spawn_chessboard
 sudo pip install pgnparser
 ```
 
-运行spawn_chessboard.py，开始对局：
+运行spawn_chessboard.py，载入对局文件 morgan_defeated_lan.pgn，开始对局：
 ```
 $ ./spawn_chessboard.py
 ```
+
